@@ -162,7 +162,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 ```
 cd server
 npm install
-npm run dev
+npm run server 
 ```
 
 ### Frontend
