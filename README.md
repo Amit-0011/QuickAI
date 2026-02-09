@@ -123,29 +123,10 @@ QuickAI/
 Create a `.env` file inside **server/**:
 
 ```
-##################################
-# Server
-##################################
 PORT=5000
-
-##################################
-# OpenAI
-##################################
-OPENAI_API_KEY=your_openai_api_key
-
-##################################
-# Clerk
-##################################
+GEMINI_API_KEY=your_openai_api_key
 CLERK_SECRET_KEY=your_clerk_secret_key
-
-##################################
-# Database (Neon)
-##################################
 DATABASE_URL=your_neon_database_url
-
-##################################
-# Cloudinary
-##################################
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
